@@ -1,0 +1,64 @@
+body {
+	margin: 0px;
+}
+
+.main {
+	padding-top: 30px;
+}
+
+.mainNav {
+	margin-bottom: 0px;
+}
+
+.red {
+	width: 100%;
+	height: 150px;
+	background-color: red;
+	padding: 0;
+	margin: 0;
+}
+
+.first > img, .second > img, .third > img {
+	padding: 0;
+	width: 70%;
+	height: 70%;
+}
+
+.first {
+	padding-left: 30px;
+}
+
+.assignments > li {
+	list-style: none;
+	padding: 10px;
+}
+
+.assignments > li > a, .assignments > li > a:visited {
+	text-decoration: none;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 1.2em;
+	color: #000000;
+}
+
+.assignments > li > a:hover {
+	color: red;
+}
+
+@media screen and (min-width: 991px) and (max-width: 1229px) {
+	.title {
+		font-size: .8em;
+	}
+}
+
+@media screen and (min-width: 1230px) and (max-width: 1556px) {
+	.title {
+		font-size: 1em;
+	}
+}
+
+@media screen and (max-width: 990px) {
+	.title {
+		font-size: .6em;
+		text-align: center;
+	}
+}
