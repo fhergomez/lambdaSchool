@@ -1,38 +1,116 @@
 body {
-	margin: 0px;
+	margin: 0 0 100px;
+	height: 100%;
 }
 
 .mainNav {
 	margin-bottom: 0px;
 }
 
-.yellow {
+.main {
+	min-height: 100%;
+}
+
+.yellow1 {
 	background-color: yellow;
 	width: 100%;
 	height: 100%;
 }
 
-.top {
+.red1 {
 	width: 100%;
 	height: 150px;
 	background-color: red;
-	margin: auto;
 }
 
-.middle {
+.blue1 {
 	width: 75%;
 	height: 1000px;
 	background-color: blue;
 	margin: auto;
 }
 
-.bottom {
-	width: 100%;
-	background-color: green;
+.green1 {
 	width: 75%;
+	background-color: green;
 	height: 150px;
 	margin: auto;
+}
 
+.red2 {
+	width: 100%;
+	height: 150px;
+	background-color: red;
+}
+
+.blue2 {
+	background-color: blue;
+	width: 33%;
+	height: 700px;
+	float: left;
+	display: inline-block;
+}
+
+.purple2 {
+	background-color: purple;
+	height: 700px;
+	width: 34%;
+	float: left;
+	display: inline-block;
+}
+
+.yellow2 {
+	background-color: yellow;
+	width: 33%;
+	height: 700px;
+	float: left;
+	display: inline-block;
+}
+
+.green2 {
+	clear: left;
+  	margin: 0 auto;
+ 	height: 150px;
+  	width: 100%;
+  	background-color: green;
+}
+
+.purple3 {
+	background-color: purple;
+	width: 100%;
+	height: 150px;
+}
+
+.red3 {
+	background-color: red;
+	width: 75%;
+	height: 1000px;
+	margin: 0 auto;
+	// padding-top: 50px !important;
+	padding: 50px;
+}
+
+.blue3 {
+	background-color: blue;
+	padding: 25px;
+	margin: 35px auto;
+	width: 85%;
+	height: 27%;
+}
+
+.yellow3 {
+	background-color: yellow;
+	width: 33%;
+	height: 66%;
+}
+
+.green3 {
+	background-color: green;
+	width: 61%;
+	height: 91%;
+	float: right;
+	margin-top: -128px;
+	padding-left: 10px;
 }
 
 .first > img, .second > img, .third > img {
